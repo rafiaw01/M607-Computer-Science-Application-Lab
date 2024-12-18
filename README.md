@@ -1,19 +1,8 @@
-# M607-Computer-Science-Application-Lab
-Module Computer Science Application Lab
+# React + Vite
 
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-How to Start the Project
+Currently, two official plugins are available:
 
-Kindly Install Visual Studio Code 
-Kindly Open Terminal on Visual Studio and enter the following code below :
-
-npm install -g npm             // To Install node js if machine already has no node js installed
-
-Install Vite package using the following
-npm create vite@latest 
-
-Once Vite has been Installed import the hilfen folder and run the app using the following 
-
-npm run dev 
-
-
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
